@@ -3,7 +3,7 @@ name: Run hockey.py daily
 # Schemalägg att köra varje dag kl. 20:45 UTC
 on:
   schedule:
-    - cron: '45 20 * * *'  # Kör varje dag kl. 20:45 UTC
+    - cron: '00 20 * * *'  # Kör varje dag kl. 20:45 UTC
 
 jobs:
   run-script:
